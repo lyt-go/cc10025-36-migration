@@ -73,6 +73,20 @@ def export_entries(
     )
 
 
+@router.get("/cold_storage/versions/{asset_id}", response_model=dict)
+def cold_storage_versions(asset_id: str) -> dict[str, Any]:
+    """回查资产的全部冷存任务版本记录及每条的资格依据。"""
+    service = require_service("cold_storage")
+    return service.list_task_versions(asset_id)
+
+
+@router.post("/cold_storage/migrate_records", response_model=dict)
+def cold_storage_migrate_records() -> dict[str, Any]:
+    """把存量按资产单文件的旧记录迁移为按任务分辨的版本记录，旧路径保留。"""
+    service = require_service("cold_storage")
+    return service.migrate_legacy_records()
+
+
 @router.get("/{module}/{entry_id}", response_model=dict)
 def get_entry(module: str, entry_id: int) -> dict[str, Any]:
     service = require_service(module)

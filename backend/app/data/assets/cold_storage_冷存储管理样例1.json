@@ -6,5 +6,8 @@
   "migration_volume": "冷存储管理样例1",
   "status": "已完成",
   "checksum": "CRC32校验通过",
-  "updated_at": "2026-11-19T01:42:58.810466+00:00"
+  "updated_at": "2026-11-22T18:13:35.126775+00:00",
+  "record_version": "v1-compat",
+  "active_task_id": "COLD-0001",
+  "active_record": "cold_storage_冷存储管理样例1_COLD-0001.json"
 }

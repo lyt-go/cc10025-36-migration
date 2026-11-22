@@ -1,0 +1,15 @@
+{
+  "record_version": "v2",
+  "asset_id": "冷存储管理样例1",
+  "task_id": "COLD-0001",
+  "target_storage": "冷存储管理样例1",
+  "compression": "冷存储管理样例1",
+  "migration_volume": "冷存储管理样例1",
+  "status": "已完成",
+  "checksum": "CRC32校验通过",
+  "preheat_location": "S3://glacier/冷存储管理样例1",
+  "supersedes": "COLD-0001",
+  "rolled_back": false,
+  "migrated_from": null,
+  "updated_at": "2026-11-22T18:13:35.126557+00:00"
+}

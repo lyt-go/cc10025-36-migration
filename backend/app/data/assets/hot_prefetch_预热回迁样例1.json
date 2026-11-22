@@ -1,0 +1,12 @@
+{
+  "cold_location": "预热回迁样例1",
+  "task_id": "HOT_-0001",
+  "target_partition": "预热回迁样例1",
+  "volume": "预热回迁样例1",
+  "priority": "预热回迁样例1",
+  "expiry_policy": "预热回迁样例1",
+  "status": "排队中",
+  "updated_at": "2026-11-22T18:12:39.832023+00:00",
+  "decision": "拒绝",
+  "decision_evidence": "资产 预热回迁样例1 不存在冷存任务版本记录"
+}

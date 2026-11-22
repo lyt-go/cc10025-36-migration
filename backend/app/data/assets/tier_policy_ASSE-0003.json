@@ -5,5 +5,5 @@
   "migration_condition": "访问频次<5次/天",
   "cooling_days": "90",
   "access_threshold": "5",
-  "activated_at": "2026-11-19T01:42:58.810124+00:00"
+  "activated_at": "2026-11-22T18:13:35.125185+00:00"
 }
